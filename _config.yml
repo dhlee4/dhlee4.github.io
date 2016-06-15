@@ -6,16 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Dae Hyun Lee
+email: dhlee4 at uw.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My name is Dae Hyun Lee and I'm Ph.D. student studing for biomedical and health informatics from University of Washington. I'm big enthusiest for applying interpretable machine learning approaches to clinical data to predict future adverse event or discover novel care pathway which allow us to improve current practice.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://dhlee4.github.io" # the base hostname & protocol for your site
+github_username:  dhlee4
 
 # Build settings
 markdown: kramdown
