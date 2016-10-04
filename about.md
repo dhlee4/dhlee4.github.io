@@ -20,7 +20,7 @@ Dae Hyun Lee
 
 - June. 2016 - Sept. 2016 : Research Intern, Microsoft Research (Mentor: Eric Horvitz)
 
-> The work for predicting Intensive Care Unit(ICU) Mortality were continued. By using computational resrouces in Microsoft Research, we were able to develop an approach that could predict the ICU mortality which is concordant to medical consensus.
+> The work for predicting Intensive Care Unit(ICU) Mortality was continued. We developed the approach that could predict the ICU mortality which is concordant to medical consensus. Physionet ICU Challenge data was used, and Apache SPARK was used for the computational framework.
 
 - Sept. 2015 - June. 2016 : Predoctoral Research Assistant, Mooney Group<mooneygroup>, University of Washington
 
