@@ -12,6 +12,8 @@ Dae Hyun Lee
 
 ### Education
 - Ph.D. Student. University of Washington, School of Medicine, Department of Biomedical Informatics and Medical Education, Biomedical and Health Informatics, Sept. 2015- Present
+	- Research Interest: Machine learning application on clinical data
+	- Supervisor: Dr. Meliha Yetisgen
 - B.E.		Yonsei University, Colleage of Engineering, Department of Computer Science
 
 ### Research Experience
