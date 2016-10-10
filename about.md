@@ -14,7 +14,7 @@ Dae Hyun Lee
 - Ph.D. Student. University of Washington, School of Medicine, Department of Biomedical Informatics and Medical Education, Biomedical and Health Informatics, Sept. 2015- Present
 	- Research Interest: Machine learning application on clinical data focusing on failure to rescue
 	- Supervisor: Dr. Meliha Yetisgen
-- B.E.		Yonsei University, Colleage of Engineering, Department of Computer Science
+- B.E.		Yonsei University, College of Engineering, Department of Computer Science
 
 ### Research Experience
 
