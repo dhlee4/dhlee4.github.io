@@ -4,20 +4,35 @@ title: About
 permalink: /about/
 ---
 
+
 Dae Hyun Lee
 ============
 
----
+### Contact Information
+
+> Address
+>   
+    Department of Biomedical Informatics and Medical Education
+    University of Washington
+    Box SLU-BIME 358047
+    850 Republican St, Building C
+    Seattle, WA  98109-4714
+
+> e-mail
+>
+    dhlee4@uw.edu
+
 
 
 ### Education
 - Doctor of Philosophy (Sept. 2014 - Present)
 	- University of Washington, School of Medicine
 	- Department of Biomedical Informatics and Medical Education
-	- Supervisor: Dr. Meliha Yetisgen
+	- Research Advisor: Dr. Meliha Yetisgen
 - Bachelor of Engineering (Mar. 2006 - Aug. 2014)
 	- Yonsei University, College of Engineering
 	- Department of Computer Science
+	- Mandatory Military Service: Nov. 2009 - Sep. 2011
 
 ###  Resarch interest
 - Buildling *prediction model* on clinical data using machine learning
@@ -43,9 +58,9 @@ Dae Hyun Lee
 	> Took in charge of researching preliminary research on computational cluster. Benchmarked the performance between single machine and distributed system using Message Parsing Interface(MPI)
 
 ### Publications
- - **Lee D** and E. Horvitz, Predicting ICU Mortality via Learning about Hazard, AAAI 2017 Student Abstract, *submitted*
+ - **Lee D** and Horvitz E. Predicting ICU Mortality via Learning about Hazard, 2017 AAAI Annual Meeting Student Abstract, *submitted*
  - Adhikari AN, Wang Y, Gallagher R, Zou Y, Sunderam Y, Shieh J, Chellappan A, Bassaganyas L, Cai B, Chen F, Freedman G, Koenig BA, Kvale M, **D. Lee**, Vaka D, Zerbe B, Mooney SD, Srinivasan R, Kwok PY, Puck JM, Brenner SE, The NBSeq Project. Exome sequencing of infant dried blood spots identifies three-quarters of metabolic disorders found by newborn screening, indicating limits to exomes in both newborn screening and diagnostic testing. ASHG 2016 Annual Meeting. 2016
- - Burke JL, **Lee D** and James RC. The EH Tracker: Using Dynamic Environmental Health Data for Improved Personal Health Decision-Making. AMIA Annu Symp Proc. 2015
+ - Burke JL, **Lee D**, and James RC. The EH Tracker: Using Dynamic Environmental Health Data for Improved Personal Health Decision-Making. AMIA Annu Symp Proc. 2015
  - Ahn J, **Lee DH**, Yoon Y, Yeu Y, Park S. Improved method for protein complex detection using bottleneck proteins. BMC Med Inform Decis Mak. 2013;13 Suppl 1(Suppl 1):S5. doi:10.1186/1472-6947-13-S1-S5.
  - Ahn J, **Lee DH**, Yoon Y, Yeu Y, Park S. Protein complex prediction via bottleneck-based graph partitioning. Cikm. 2012:49. doi:10.1145/2390068.2390079.
 
@@ -55,7 +70,7 @@ Dae Hyun Lee
  - **Lee D** and Yetisgen M. Predicting Ventilator-associated Pneumonia Using the Cumulative Probability Approach. 2017 AMIA Joint Summits on Transitional Science Podium Abstract, *submitted*
  - **Lee D**, Cai B, Mooney S. General Prediction Pipeline for Mendelian Disorders using Whole-Exome Sequencing Data. Human Single Nucleotide Polymorphisms & Disease,
 2016 Gordon Research Conference. South Hadley, MA.
- - Burke JL, **Lee D**, James RC. The EH Tracker: Using Dynamic Environmental Health Data for Improved Personal Health Decision-Making. 2015 AMIA Annual Symposium Student Design Challenge. San Francisco, CA.
+ - Burke JL, **Lee D**, and James RC. The EH Tracker: Using Dynamic Environmental Health Data for Improved Personal Health Decision-Making. 2015 AMIA Annual Symposium Student Design Challenge. San Francisco, CA.
  - **Lee D**, James R. Using Pathway as an anchor for data collection. 2015 CCD Summer Short Course. Pittsburgh, PA.
 
 ### Academic Awards
