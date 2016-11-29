@@ -43,26 +43,31 @@ Dae Hyun Lee
 
 - June. 2016 - Sept. 2016 : Research Intern, Microsoft Research (Mentor: Eric Horvitz)
 
-	> Continued to work on predicting ICU mortality using PhysioNet ICU Challenge data. Built the model to predict ICU in-hospital mortality. The model presented the contribution of clinical variables when predicting the risk of death.
+> Continued to work on predicting ICU mortality using PhysioNet ICU Challenge data. Built the model to predict ICU in-hospital mortality. The model presented the contribution of clinical variables when predicting the risk of death.
 	
 - Sept. 2015 - June. 2016 : Predoctoral Research Assistant, Mooney Group<mooneygroup>, University of Washington
 
-	> Focused on improving current newborn screening method with predicted pathogenicity from their genetic sequence. Built a prediction pipeline by integrating genetic knowledge bases.
+> Focused on improving current newborn screening method with predicted pathogenicity from their genetic sequence. Built a prediction pipeline by integrating genetic knowledge bases.
+
 - July. 2015 - Sept. 2015 : Research Intern, Microsoft Research (Mentor: Eric Horvitz)
 
-	> Exposed to applying machine learning on clinical data. Worked on understanding clinical data and discovered the atypia of clinical variable could be useful feature predicting the risk of clinically adverse events.
+> Exposed to applying machine learning on clinical data. Worked on understanding clinical data and discovered the atypia of clinical variable could be useful feature predicting the risk of clinically adverse events.
+
 - Sept. 2014 - July 2015 : Predoctoral Research Assistant, Sauro Lab<saurogroup>, University of Washington
 
-	> Developed a plugin for Tinkercell to adopt new SBOL(Synthetic Biology Open Language) standard(version 2.0)
+> Developed a plugin for Tinkercell to adopt new SBOL(Synthetic Biology Open Language) standard(version 2.0)
+
 - Sept. 2013 - Sept. 2014 : Researcher, Biomedical Informatics Lab, Seoul National University College of Medicine, Seoul, Korea
 
-	> Developed agent apps in Health Avatar (a software platform for personalized management of health information) as a main developer. Also, Worked for integrating various pathway database (WikiPathway, KEGG).
+> Developed agent apps in Health Avatar (a software platform for personalized management of health information) as a main developer. Also, Worked for integrating various pathway database (WikiPathway, KEGG).
+
 -  June 2012 - May 2013 : Undergraduate Intern, Embedded and Bio database Laboratory, Yonsei University, Seoul, Korea
 
-	> Experienced the field of bioinformatics for the first time. Worked on developing the algorithm for partitioning Protein-Protein Interaction (PPI) network.
+> Experienced the field of bioinformatics for the first time. Worked on developing the algorithm for partitioning Protein-Protein Interaction (PPI) network.
+
 - May 2008 - August 2008 : Distributed System Researcher,Helsinki Metropolia University of Applied Science, Espoo, Finland, FKII, Finland-Korea Internship Exchange Program.
 
-	> Took in charge of researching preliminary research on computational cluster. Benchmarked the performance between single machine and distributed system using Message Parsing Interface(MPI)
+> Took in charge of researching preliminary research on computational cluster. Benchmarked the performance between single machine and distributed system using Message Parsing Interface(MPI)
 
 ### Publications
  - **Lee D** and Horvitz E.Predicting Mortality of Intensive Care Patients via Learning about Hazard, 2017 AAAI Annual Meeting Student Abstract
