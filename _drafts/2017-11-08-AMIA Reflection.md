@@ -1,4 +1,4 @@
-#AMIA Reflection
+# AMIA Reflection
 
  - It looks like CRF is one of the common method used in NLP. Need to organize differences between HMM, CRF and other commonly used ML approaches, such as Yuan Lao's paper.
  - Open source tool for Text annotation viewer via XML or JSON(Probably XML would have better fit). If not, let's make it.
@@ -55,6 +55,3 @@
  6. Move to HIPAA Site
  7. Additional Optimization(Few time)
  8. Evaluation and Validation on HIPAA site.
-
-
-

@@ -7,7 +7,7 @@ title: AMIA Reflection
 
 I attended AMIA Annual Symposium 2017 at Washington D.C. from November 4-8, 2017. I had an honor to share my work "Clustering Vital Sign Observations Using Unsupervised Random Forest". Besides that, I had an awesome insights from other sessions.
 
-#NLP
+# NLP
 
 I mostly have been working with structured clinical data, which includes labs and vital signs, and simply use extracted medical concepts along with assertions from clinical notes as features to improve the performance of my models. Although I knew HMM, LSTM are common ways to build language models, I wasn't sure what is the **norm** of building such models. It looks like most of the submissions in NLP sessions used Conditional Random Field(CRF) and LSTM with some variations. I have been using LSTM for other experiments but didn't have much chance to go over CRF. I might need to write a post to go over CRF for my personal understanding. Perhaps some comparison between CRF and LSTM would be a good learning experience for me since they are both dealing with sequence data.
 
@@ -18,7 +18,7 @@ Moreover, throughout the session, there were other researchers mentioning about 
 Yuan Luo presented his work building a language model using LSTM. He presented some improvements by segmenting the sentences and build RNN using LSTM. This might have some insights on my work because this might indicate not all previous information have relevant effect on the future prediction. Perhaps there should be state-specific progression we need to consider.
 Lastly, there were a presentation using attention in sequence model and improving the performance on language model. Of course, the interpretability of RNN is known to be bad. However, if the aim of the model is just find out what time period we should focus, adding linear attention component of modeling might improve the interpretability as we merge the time-dependent states with logistic regression(simply will have a form of auto-correlation)
 
-#Clinical implication
+# Clinical implication
 During the session, there was few mentions around using ICD 9 code as gold standard. There were some notion that ICD 9 code might be a marker with high PPV but not that specific.
 
 Moreover, there were some mentions around using SNOMED as annotation instead of ICD9 but I'm not sure which SNOMED people mentioning about. In my knowledge, SNOMED is a clinical terminology, or ontology, including clinical concepts. I should investigate further what this means.
@@ -38,16 +38,15 @@ There were some potential engagement points of ML models in clinical informatics
 During the session, there was a ADR work related to statin and nobody had rebuttal on it. I assume it is common to see ADRs using Statin. It might be interesting to see whether there is anything I can do.
 
  
-#General perception on physicians' response on ML-driven models
+# General perception on physicians' response on ML-driven models
  - There was a mention that physicians are more interested on edge cases in predictions from ML-driven models. One of the audience mentioned that physicians might do better than prediction model when the confidence interval is high. The prediction results will be useful when it properly handles edge cases. I agree with this opinion because most of high confidence predictions are based on some significant distortion on physiologic patterns. Most of the hard decision makings are done in edge cases, or grey area. If the ML-driven models could properly handle various variables that could potentially effect on clinical decision making and provide proper level of interpretability, it will improve the quality of the current clinical practice and perhaps make clinicians to be interested in integrating ML-driven models in clinical workflow.
 
-###Side Notes
+### Side Notes
  - In Acute Care session, IBM Watson did the similar approach we did on the previous AAAI paper. I'm not sure the internal pipeline of the learning, but it looks like they trained hazard model with LASSO, one hazard ration describing patient's trajectory for each patient. Need to revisit the paper.
  - The presentation using MIMIC introduced some of exclusion criteria that I didn't know there exists, such as Code status and organ donor status. I should check that and exclude those patients for my experiments.
  - There was a mention that Gradient Boosted Tree can handle missing data. I believe the missing data handling is done by feature representation space. I should revisit GBT and see whether there exists specific missing value handling during training phase.
  - It looks like CMS has medical spending information. I should look into the resource and check what is available for my research.
  - I was keep forgetting to conduct bootstrapping for CI calculation. I should definitely include that from my next paper.
  - There was a paper underlining the importance of model caliburation. It showed that the model trained by the old dataset tends to loose its accuracy as the time progresses. It could be interesting if we could evaluate what is the right time for model update or proper strategy on updating model in real clinical setting to maximize clinical utility.
-
 
 
