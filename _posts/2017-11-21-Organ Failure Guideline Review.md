@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Organ Failure Guideline Review"
-categories: jekyll update
 ---
 
 # Why did I do the guideline review?
@@ -131,13 +130,21 @@ https://www.guideline.gov/summaries/summary/47080/acute-kidney-injury-prevention
 # Reflection
 
 ## Overall
- - There are some ways to visualize predicted risks vs. variables. I'm considering adopting one of two visualization other researchers used for the following publications
-	 - Caruana R, Lou Y, Gehrke J, Koch P, Sturm M, Elhadad N. Intelligible models for healthcare: Predicting pneumonia risk and hospital 30-day readmission. InProceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2015 Aug 10 (pp. 1721-1730). ACM.
+
+### There are some ways to visualize predicted risks vs. variables. I'm considering adopting one of two visualization other researchers used for the following publications
+ 
+ - Caruana R, Lou Y, Gehrke J, Koch P, Sturm M, Elhadad N. Intelligible models for healthcare: Predicting pneumonia risk and hospital 30-day readmission. InProceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2015 Aug 10 (pp. 1721-1730). ACM.
 
 ![Caruana Image]({{ "/assets/2017-11-21_1.png" | absolute_url }})
 
-	 
-	 - Suresh H, Hunt N, Johnson A, Celi LA, Szolovits P, Ghassemi M. Clinical Intervention Prediction and Understanding using Deep Networks. arXiv preprint arXiv:1705.08498. 2017 May 23.
 
+ - Suresh H, Hunt N, Johnson A, Celi LA, Szolovits P, Ghassemi M. Clinical Intervention Prediction and Understanding using Deep Networks. arXiv preprint arXiv:1705.08498. 2017 May 23.
 
 ![Suresh Image]({{ "/assets/2017-11-21_2.png" | absolute_url }})
+
+### Here're the list of variables I choosed to validate for each organ failure
+
+ - AHF: BNP, NT-proBNP
+ - ARF: pH, pCO2, RR
+ - ALF: I need to go over which features did MELD and KCC used for the evaluation
+ - AKF: Urine Output, eGFR, absolute creatinine level, creatinine difference(e.g., max creatinine - min creatinine for specific time window, or percent difference between low and high creatinine), total urine output within specific time window
